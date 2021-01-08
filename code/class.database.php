@@ -1,10 +1,10 @@
 <?php
 # Name: database.class.php
 # File Description: MySQL Class for simple SQL execution
-# Author: Sokac
-# Web: http://sokac.net/
+# Author: Ivan SJ
+# Web: https://www.ivan-marinkovic.com.hr
 # Update: 2009-11-03
-# Version: 0.21
+# Version: 0.22
 
 /*
  This program is free software: you can redistribute it and/or modify

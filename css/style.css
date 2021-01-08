@@ -1,0 +1,409 @@
+/*--------------------------------------------------------------------------------------------
+1. DEFAULT ELEMENTI - HTML, BODY, H1, H2, P...
+--------------------------------------------------------------------------------------------*/
+html, body, div, span, form, textarea, input, img, label, table, tr, td, p, hr, h1, h2, h3, h4, h5, ul, li, dl, dt, dd{ 
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body{
+  color: #333;
+  background-color: #F1F3F5;
+  font-family: Verdana, Arial;
+  font-size: 12px;
+  line-height: 1.7em;
+}
+body#login{background-color:#fff}
+
+h1{
+  color: #739ad1;
+  font-size: 2.0em;
+  font-weight: normal;
+  padding-bottom: 8px;
+}
+h2{
+  color: #739ad1;
+  font-size: 1.4em;
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+h3{
+  color: #fff;
+  background-color: #73A9E3;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 6px 12px;
+}
+h4{
+  color: #739ad1;
+  font-size: 1.6em;
+  font-weight: normal;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #739ad1;
+  margin-bottom: 15px;
+}
+h5{
+  color: #808080;
+  font-size: 0.9em;
+  font-weight: normal;
+  padding-bottom: 12px;
+}
+
+a{
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover, a:focus{
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+em{font-style:normal}
+
+big{font-size:1.2em}
+small{font-size:0.9em}
+
+.admin{color:#ff0000}
+.mod{color:#23a616}
+
+ul{list-style-type:circle;padding:0 0 13px 30px}
+ul li{padding:1px 0}
+
+#column_left ul{list-style-image:none;list-style:none;padding-left:10px}
+
+ul.italic{font-style:italic}
+ul.italic b{font-size:0.9em}
+
+table{
+  width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 0.9em;
+	margin-bottom: 15px;
+}
+table span{font-size:1.1em}
+table th, table td{
+  border: 1px solid #d9d9d9;
+	padding: 6px 10px;
+}
+table th, table tr.dark{
+  background-color: #F4F5F7;
+}
+table tr:hover{
+  background-color: #ffffbf;
+}
+
+p{padding-bottom:15px;line-height:1.7em}
+.justify{text-align:justify}
+.align_c{text-align:center}
+.align_r{text-align:right}
+
+p.padding_small{padding-bottom:5px}
+p.padding_none{padding:0}
+
+img.image{border:1px solid #ccc;padding:4px;margin:0 5px 5px 0}
+
+.float_l{float:left}
+.float_r{float:right}
+
+.clear{clear:both;width:100%;height:1px}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+2. HEADER STRANICE
+-------------------------------------------------------------------------------------------*/
+#wrapper_header{
+  width: 100%;
+  min-width: 1260px;
+  height: 130px;
+  background: #F1F3F5 url('../images/back-header.gif') bottom repeat-x;
+  border-bottom: 1px solid #ccc;
+}
+#container_header{
+  background: url('../images/img-login.png') 30px center no-repeat;
+  width: 1160px;
+  padding: 12px 0 0 100px;
+}
+#container_header #name{
+  float: left;
+  width: 180px;
+  text-align: center;
+  padding: 20px 30px 0 0;
+}
+#container_header .info{
+  float: left;
+  padding-right: 50px;
+}
+#container_header .info p{
+  background-color: #E9ECEF;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+3. SREDINA STRANICA
+-------------------------------------------------------------------------------------------*/
+#wrapper_mid{
+  width: 100%;
+  min-width: 1260px;
+  background-color: #fff;
+  padding: 20px 0 2px;
+}
+#container_mid{
+  width: 1260px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+3.1. SREDINA LIJEVA NAVIGACIJA
+-------------------------------------------------------------------------------------------*/
+#column_left{
+  float: left;
+  width: 150px;
+  padding: 0 20px 0 10px;
+}
+#column_left .box{
+  background-color: #F1F3F5;
+  border: 1px solid #ccc;
+  padding: 8px 0 0 5px;
+  margin-bottom: 15px;
+}
+#column_left ul{padding-bottom:9px}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+3.2. SREDINA STRANICE
+-------------------------------------------------------------------------------------------*/
+#main{
+  float: left;
+  width: 1070px;
+  padding-right: 10px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+4. FOOTER STRANICE
+-------------------------------------------------------------------------------------------*/
+#wrapper_footer{
+  width: 100%;
+  min-width: 990px;
+  background: #F1F3F5 url('../images/back-footer.gif') repeat-x;
+  border-top: 1px solid #ccc;
+}
+#wrapper_footer p{
+  padding: 12px 20px 14px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+5. LOGIN FORMA
+-------------------------------------------------------------------------------------------*/
+#container_login{
+  width: 370px;
+  color: #333;
+  background: #F1F3F5 url('../images/img-login.png') 30px 20px no-repeat;
+  border: 1px solid #ccc;
+  margin: 150px auto 0;
+  padding: 20px;
+}
+#container_login form{background-color:#E9ECEF;border:0;padding:0;margin:0}
+#container_login p.opis{
+  padding: 0 10px 14px 90px;
+}
+#box_login{
+  width: 340px;
+  background-color: #E9ECEF;
+  border: 1px solid #ccc;
+  font-family: 'Trebuchet MS';
+  font-size: 1.2em;
+  margin-top: 10px;
+  padding: 15px 15px 0;
+}
+#footer_login{
+  width: 400px;
+  text-align: center;
+  margin: 15px auto 0 auto;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+6.1. OSTALI ELEMENTI STRANICE - LINKOVI SA IKONICAMA
+-------------------------------------------------------------------------------------------*/
+span a{
+  color: #000;
+  background-repeat: no-repeat;
+  background-position: 3px top;
+  font-size: 0.9em;
+  padding: 2px 3px 1px 22px;
+  text-decoration: none;
+}
+span a:hover, span a:focus{
+  background-position: 3px -17px;
+}
+
+a.usercp{
+  background-image: url('../images/icons/usercp.gif');
+}
+a.logout{
+  background-image: url('../images/icons/logout.gif');
+}
+a.home{
+  background-image: url('../images/icons/home.gif');
+}
+
+a.view{
+  background-image: url('../images/icons/view.gif');
+}
+a.views{
+  background-image: url('../images/icons/views.gif');
+}
+a.add{
+  background-image: url('../images/icons/add.gif');
+}
+a.edit{
+  background-image: url('../images/icons/edit.gif');
+}
+a.delete{
+  background-image: url('../images/icons/delete.gif');
+}
+
+a.tags{
+  background-image: url('../images/icons/tags.gif');
+}
+a.categ{
+  background-image: url('../images/icons/categ.gif');
+}
+a.comments{
+  background-image: url('../images/icons/comments.gif');
+}
+a.upload{
+  background-image: url('../images/icons/upload.gif');
+}
+a.picture{
+  background-image: url('../images/icons/picture.gif');
+}
+a.poll{
+  background-image: url('../images/icons/poll.gif');
+}
+a.fbpages{
+  background-image: url('../images/icons/fbpages.gif');
+}
+
+a.link{
+  color: #0066cc;
+  background-image: url('../images/icons/link.gif');
+  background-position: right top;
+  padding: 2px 17px 1px 2px;
+}
+a.link:hover, a.link:focus{
+  background-position: right -17px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+6.2. OSTALI ELEMENTI STRANICE - TEXT, BUTTON...
+-------------------------------------------------------------------------------------------*/
+form{
+  background-color: #f2f5f7;
+  border: 1px solid #dcdee0;
+  padding: 15px 15px 0;
+  margin-bottom: 15px;
+}
+label{
+  float: left;
+  display: block;
+  width: 150px;
+  text-align: right;
+  padding: 1px 10px 0 0;
+}
+p.button_align{
+  padding-left: 161px;
+}
+.text, .text_select{
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 4px 6px;
+}
+.text_select{padding:3px 5px}
+.button{
+  color: #666;
+  background-color: #E9ECEF;
+  border: 1px solid #ccc;
+  font-family: 'Trebuchet MS';
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 4px 15px;
+}
+.checkbox{margin-top:5px}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+6.3. OSTALI ELEMENTI STRANICE - STRANICA: 1 2 3...
+-------------------------------------------------------------------------------------------*/
+a.page, em.page_active{
+  color: #666;
+  background-color: #E9ECEF;
+  border: 1px solid #ccc;
+  font-family: 'Trebuchet MS';
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+em.page_active, a.page:hover, a.page:active{
+  color: #000;
+  background-color: #e8f1fc;
+  border-color: #73A9E3;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+6.4. OSTALI ELEMENTI STRANICE - PORUKE
+-------------------------------------------------------------------------------------------*/
+p.ok, p.error, p.help{
+  color: #000;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  padding: 8px 10px 8px 32px;
+  margin-bottom: 18px;
+}
+p.ok{
+  background-color: #e5fcd9;
+  background-image: url('../images/icons/message-ok.gif');
+  border-color: #67C058;
+}
+p.error{
+  background-color: #fceae3;
+  background-image: url('../images/icons/message-error.gif');
+  border-color: #E3775B;
+}
+p.help{
+  background-color: #e8f1fc;
+  background-image: url('../images/icons/message-help.gif');
+  border-color: #73A9E3;
+}

@@ -1,0 +1,147 @@
+/*
+--------------------------------------------------------------------------------------------
+1. DEFAULT ELEMENTI - HTML, BODY, H1, H2, P...
+--------------------------------------------------------------------------------------------
+*/
+html, body, div, span, form, textarea, input, img, label, table, tr, td, p, hr, h1, h2, h3, h4, h5, ul, li, dl, dt, dd{ 
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body{
+  color: #000;
+  background-color: #fff;
+  font-family: Verdana, Arial;
+  font-size: 12px;
+  line-height: 1.7em;
+}
+
+h1{
+  font-size: 2.0em;
+  font-weight: normal;
+  padding-bottom: 8px;
+}
+h1.title{
+  font-size: 1.4em;
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+h2{
+  font-size: 0.9em;
+  font-weight: normal;
+  padding-bottom: 14px;
+}
+h3{
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 6px 12px;
+}
+h4{
+  font-size: 1.6em;
+  font-weight: normal;
+  padding-bottom: 28px;
+}
+h5{
+  font-size: 0.9em;
+  font-weight: normal;
+  padding-bottom: 12px;
+}
+
+
+a{
+  color: #000;
+  text-decoration: underline;
+}
+
+em{font-style:normal}
+
+big{font-size:1.2em}
+small{font-size:0.9em}
+
+ul{list-style-type:circle;padding:0 0 13px 30px}
+ul li{padding:1px 0}
+
+ul.italic{font-style:italic}
+ul.italic b{font-size:0.9em}
+
+table{
+  width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 0.9em;
+	margin-bottom: 15px;
+}
+table span{font-size:1.1em}
+table th, table td{
+	padding: 6px 9px;
+}
+
+p{padding-bottom:15px;line-height:1.7em}
+.justify{text-align:justify}
+.align_c{text-align:center}
+.align_r{text-align:right}
+
+p.padding_small{padding-bottom:5px}
+p.padding_none{padding:0}
+
+.float_l{float:left}
+.float_r{float:right}
+
+.clear{clear:both;width:100%;height:1px}
+
+
+
+
+/*
+-------------------------------------------------------------------------------------------
+2. OSTALI ELEMENTI STRANICE - SAKRIVENO
+-------------------------------------------------------------------------------------------
+*/
+.print_none{display:none}
+#container_header .info{display:none}
+
+#column_left{display:none}
+
+#wrapper_footer{display:none}
+#footer_login{display:none}
+
+
+
+
+/*
+-------------------------------------------------------------------------------------------
+3. OSTALI ELEMENTI STRANICE - ISPRAVAK PRIKAZA
+-------------------------------------------------------------------------------------------
+*/
+#container_header #name h1{
+  float: left;
+  padding: 0 10px 40px 0;
+}
+#container_header #name p{
+  float: left;
+  padding-top: 2px;
+}
+
+label{
+  float: left;
+  display: block;
+  width: 130px;
+  text-align: right;
+  padding: 1px 10px 0 0;
+}
+p.button_align{
+  padding-left: 141px;
+}
+.text, .text_select{
+  padding: 3px 5px;
+}
+.text_select{padding:3px 5px}
+.button{
+  background-color: #fff;
+  font-family: 'Trebuchet MS';
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 5px 16px;
+}
+.checkbox{margin-top:5px}
